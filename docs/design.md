@@ -1,0 +1,1 @@
+![](./wireframes/view.excalidraw.png)
