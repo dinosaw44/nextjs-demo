@@ -10,7 +10,7 @@ type SearchProps = {
   handleResults: (data: Product[]) => void,
 }
 
-export default function({ handleChange, handleResults }: SearchProps) {
+export function Search({ handleChange, handleResults }: SearchProps) {
     const search = async (event: FormEvent<HTMLFormElement>) => {
       event.preventDefault()
   

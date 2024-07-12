@@ -31,7 +31,7 @@ export default function Home() {
     <div className="max-w-md mx-auto">
       <Search 
         handleChange={setSearchValue}
-        handleResults={data => (setProducts(data), setSearchValue(searchValue))} 
+        handleResults={(data: Product[]) => (setProducts(data), setSearchValue(searchValue))} 
       />
     </div>
     {
